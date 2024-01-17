@@ -20,7 +20,7 @@ Este é um projeto em JavaScript focado em consumir uma API da "OpenWeather". El
 </div>
 
 ## Como usar?
-- Os usuários podem acessar a Landing Page diretamente no navegador.
+- Os usuários podem acessar a Aplicação diretamente no navegador.
 
 ## Link do Projeto:
 - [Clima-Project](https://clima-roan.vercel.app/)
