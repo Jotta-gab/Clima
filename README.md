@@ -11,7 +11,7 @@ Este é um projeto em JavaScript focado em consumir uma API da "OpenWeather". El
 
 ## Tecnologias Utilizadas
 1. HTML
-2. CSS
+2. SASS
 3. JavaScript
 
 ## Layout
