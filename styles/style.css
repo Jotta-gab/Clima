@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/assets/stacked-peaks-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-box {
+  width: 400px;
+  height: 300px;
+  background-color: #373b47;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.middle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.city-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #007BFF;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #c0bdbd;
+}
+
+.search-btn {
+  background-color: #007BFF;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.search-btn:hover {
+  background-color: #0f5fb4;
+}
+
+.magnifying-glass {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.location {
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.humidity,
+.temperature {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+hr {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-solid {
+  color: #fff;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */

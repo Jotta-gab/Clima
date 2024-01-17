@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/icons8-sol-50.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Clima da cidade</title>
+</head>
+<body>
+
+    <div class="main-box">
+        <div class="search">
+            <input class="city-input" placeholder="Digite o nome da cidade">
+            <button class="search-btn" onclick="clickOnButton()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <hr>
+        <div class="middle-box">
+            <h2 class="location"><i class="fa-solid fa-location-dot"></i>Tempo em Rio de Janeiro</h2>
+            <p class="humidity"><i class="fa-solid fa-droplet"></i>Umidade: 70%</p>
+            <p class="temperature"><i class="fa-solid fa-temperature-three-quarters"></i>28°C</p>
+
+            <div class="small-box">
+                <img class="icon" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="description">Nuvens Dispersas</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/70e732b00c.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    
+</body>
+
+</html>

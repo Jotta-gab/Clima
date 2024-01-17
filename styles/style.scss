@@ -1,0 +1,114 @@
+$font-family: 'Montserrat', sans-serif;
+$primary-color: #007BFF;
+$box-background: #373b47;
+$box-shadow-color: rgba(0, 0, 0, 0.5);
+$link-hover-color: #0f5fb4;
+
+@mixin box-shadow() {
+  box-shadow: 0 0 10px $box-shadow-color;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  background-image: url(/assets/stacked-peaks-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-box {
+  width: 400px;
+  height: 300px;
+  background-color: $box-background;
+  padding: 20px;
+  border-radius: 10px;
+  @include box-shadow();
+}
+
+.middle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.city-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid $primary-color;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #c0bdbd;
+}
+
+.search-btn {
+  background-color: $primary-color;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: $link-hover-color;
+  }
+}
+
+.magnifying-glass {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.location {
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.humidity,
+.temperature {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+hr {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-solid {
+  color: #fff;
+  margin-right: 10px;
+}
+
+
